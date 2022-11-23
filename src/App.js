@@ -1,17 +1,15 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from './components/Navbar';
-import CartWidget from './components/CartWidget/CartWidget';
-import ItemListContainer from './components/ItenListContainer/ItenListContainer';
-
-
+import 'bootstrap/dist/css/bootstrap.min.css';	
+import {ItemListContainer} from "./components/ItemListContainer/ItemListContainer";
+import {Layout} from "./components/Layout/Layout"
 
 function App() {
   return (
 	<div>
-  	<NavBar>
-	  <CartWidget/>
-	  </NavBar>
-	<ItemListContainer greenting />
+		<main>
+  			<Layout>
+			<ItemListContainer />
+			</Layout>
+		</main>
 	</div>
   );
 }

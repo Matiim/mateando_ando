@@ -1,0 +1,49 @@
+#card{
+	margin: 33px;
+	padding: 10px;
+	border: 1;
+	width: 16rem;
+	height: 36rem;
+}
+
+#text{
+	font-family: 'Kanit', sans-serif;
+	font-size: 22px;
+	text-align: center ;
+	margin: 20px;
+	color: #111111;
+}
+
+#name{
+	text-align: center;
+	font-size: 20px;
+	color: black;
+	
+}
+
+#compra{
+	font-family: 'Oswald', sans-serif;
+	padding: 15px 20px;
+	margin: 5px;
+	background: #517245;
+	color: #ffffff;
+	border: 0;
+	
+}
+#preview{
+	padding: 15px 20px;
+	margin: 5px;
+	background: #517245;
+	color: #ffffff;
+	border: 0;
+}
+
+#botones{
+	display: flex;
+	margin: 30px;
+	
+}
+
+
+
+

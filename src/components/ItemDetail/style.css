@@ -1,0 +1,93 @@
+#body{
+	display: flex; 
+	padding: 3rem; 
+	background-color: #ffffff; 
+	transition-property: all; 
+	width: 100%; 
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); 
+	
+}
+
+#info{
+	display: flex; 
+	justify-content: center; 
+	width: 70%;
+  }
+
+#imagen{
+	max-height: 500px;
+	border-radius: 20px;
+  }
+
+#detail{
+	display: flex; 
+	padding-left: 2.5rem; 
+	flex-direction: column; 
+	justify-content: center; 
+	padding-bottom: 40px;
+  }
+
+  #nombre{
+	font-size: 1.875rem;
+	line-height: 7.5rem; 
+	font-weight: 600; 
+	
+  }
+#descripcion{
+	margin-top: 1rem;
+	padding-top: 3rem; 
+	font-size: 1.2rem;
+	line-height: 1.7rem; 
+}
+#span-price{
+	margin-top: 1rem; 
+	font-size: 1.2rem;
+	line-height: 1.7rem;
+}
+#precio{
+	color: black; 
+	font-weight: 600;
+	font-size: 1.7rem;
+}
+#stock{
+	font-size: 0.875rem;
+	line-height: 1.25rem; 
+}
+#bottons{
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+	width: 100%; 
+	padding-top: 40px;
+}
+
+#botton-card{
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem; 
+	padding-left: 1rem;
+	padding-right: 1rem; 
+	margin-top: 0.5rem; 
+	background-color: #E5E7EB; 
+	width: 70%; 
+	border-radius: 0.25rem; 
+
+}
+
+
+#botton-compra{
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem; 
+	padding-left: 1rem;
+	padding-right: 1rem; 
+	margin-top: 0.5rem; 
+	background-color: #1F2937; 
+	color: #ffffff; 
+	width: 70%; 
+	border-radius: 0.25rem; 
+
+}
+#sin-stock{
+	margin-top: 2.5rem; 
+	color: #EF4444; 
+
+}

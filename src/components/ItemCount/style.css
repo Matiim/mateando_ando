@@ -1,0 +1,32 @@
+#resta{
+	display: inline-block; 
+	padding: 0.5rem; 
+	background-color: #1F2937; 
+	color: #ffffff; 
+	justify-content: center; 
+	align-items: center; 
+	width: 10%; 
+	height: 40%;
+	border-radius: 50px;
+}
+
+#suma{
+	display: inline-block; 
+	padding: 0.5rem; 
+	background-color: #1F2937; 
+	color: #ffffff; 
+	justify-content: center; 
+	align-items: center; 
+	width: 10%; 
+	height: 40%;
+	border-radius: 50px; 
+	
+}
+#counter{
+	margin-left: 1rem;
+	margin-right: 1rem; 
+	flex: 1 1 0%; 
+	justify-content: center; 
+	align-items: center;  
+	font-weight: 600; 
+}
