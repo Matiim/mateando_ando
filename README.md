@@ -11,7 +11,7 @@ Mateando Ando es un E-commerce que se dedica a la venta de productos para tomar 
 
 ## Logo de la web
 ![logo de la web](./src/assests/img/logo/logo.png)
- 
+
 
  ## Propósito del proyecto
  Este proyecto es para el curso de React dictado por [CoderHouse](https://www.coderhouse.com/)
@@ -24,8 +24,6 @@ Mateando Ando es un E-commerce que se dedica a la venta de productos para tomar 
  * Firebase
 
 
-
-
 ## Dependencias instaladas: 
 * [React-Bootstrap](https://react-bootstrap.github.io/)
 * [React-router-dom](https://v5.reactrouter.com/)
@@ -36,4 +34,7 @@ Mateando Ando es un E-commerce que se dedica a la venta de productos para tomar 
 
 1. git clone https://github.com/Matiim/mateando_ando.git  
 2. npm install
+
+## Preview
+podes visualizar el proyecto derectamente ingresando a este link https://mateando-ando.vercel.app/
 
