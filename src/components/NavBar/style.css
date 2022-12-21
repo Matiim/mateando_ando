@@ -1,10 +1,100 @@
 #navbar{
 	background-color: black; 
+}
+
+.nav{
+	display: flex;
+	justify-content: center;
+	flex-grow: 1;
+}
+
+
+#home{
+	color: white;
+	text-decoration: none;
+	padding-right: 15px;
+	font-size: 1.3rem;
+	font-family: 'kanit', sans-serif;
+}
+#home:hover{
+	color: rgba(255, 255, 255, 0.55);
+}
+#mates{
+	color: white;
+	text-decoration: none;
+	padding-right: 15px;
+	font-size: 1.3rem;
+	font-family: 'kanit', sans-serif;
+}
+#mates:hover{
+	color: rgba(255, 255, 255, 0.55);
+}
+#termos{
+	color: white;
+	text-decoration: none;
+	padding-right: 15px;
+	font-size: 1.3rem;
+	font-family: 'kanit', sans-serif;
+}
+#termos:hover{
+	color: rgba(255, 255, 255, 0.55);
+}
+#bombillas{
+	color: white;
+	text-decoration: none;
+	padding-right: 15px;
+	font-size: 1.3rem;
+	font-family: 'kanit', sans-serif;
+}
+#bombillas:hover{
+	color: rgba(255, 255, 255, 0.55);
+}
+#set{
+	color: white;
+	text-decoration: none;
+	padding-right: 15px;
+	font-size: 1.3rem;
+	font-family: 'kanit', sans-serif;
+}
+#set:hover{
+	color: rgba(255, 255, 255, 0.55);
+}
+
+.img{
+	text-align: center;
+}
+
+#text-top{
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-size: 'Kanit', sans-serif;
+	font-size:0.8rem;
+	padding: 1px 1px;
+	box-sizing: border-box;
 	
 }
 
-#nav{
-	font-family: 'Oswald', sans-serif;
-	padding: 0px 10px;
-	color: #ffffff;
+#p-top{
+	display: block;
+	margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
+}
+
+#contactos{
+	display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 45px;
+	background-color: #000000;
+	color: white;
+}
+
+#lista-contacto{
+    flex-direction: row;
+    display: flex;
+	list-style: none;
+	margin: 0px 10px;
+    font-size: 0.8rem;
+	font-family: 'Kanit', sans-serif;
 }

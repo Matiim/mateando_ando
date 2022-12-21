@@ -1,32 +1,41 @@
 import "./style.css"
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { useNavigate } from "react-router-dom";
-import {AiOutlineEye} from 'react-icons/ai';
-import { BsCart2 } from 'react-icons/bs';
+import { useGetItemImg } from "../../hooks/useGetItemImg";
+import { Loading } from "../loading/Loading";
 
-const Item = ({ product }) => {
+
+export const Item = ({ product, quantityAdded }) => {
 	const navigate = useNavigate();
-
+	const img = useGetItemImg(product.img);
+  
+	
 	function handleNavigate() {
-		navigate(`/item/${product.id}`);
-	  }
+	  navigate(`/item/${product.id}`);
+	}
+  
+	if (!img) {
+	  return <Loading />;
+	}
+	
+
   return (
 
 	<Card id="card" >
-    	<Card.Img  src={product.img} id="img" /> 
-		<Card.Body >
-		<Card.Title id="name">{product.name}</Card.Title>
-      		<Card.Text id="text"> {product.price}</Card.Text>
-	 <div id="botones"> <Button id="compra"> <BsCart2/> </Button>
-	<div onClick={handleNavigate}>	
-			<Button id="preview"> <AiOutlineEye/> </Button> 
-	</div> 
-	</div>
-      	</Card.Body>
+		<div onClick={handleNavigate} id="preview">	
+		<a>	
+    	<Card.Img  src={img} id="img" /> 
+			<Card.Title id="name">{product.name}</Card.Title>
+      			<Card.Text id="text">${product.price}</Card.Text> 
+				  </a> 
+				  </div> 
+				<Card.Text id="descuento">3 cuotas sin interés de ${product.descuento}</Card.Text>
+				<span className="stock-agregados">
+					{product.stock === 0 ? "Sin Stock": quantityAdded ? `Agregados: ${quantityAdded}`: `En Stock: ${product.stock}`}
+				</span>
     </Card>
+	
 
   );
 }
 
-export default Item;

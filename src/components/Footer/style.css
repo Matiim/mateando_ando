@@ -1,0 +1,148 @@
+.footer{
+	background-color: black;
+	width: 100%;
+	display: inline-block;
+
+	align-items: center;
+	position: relative;
+	color: white;
+}
+h5{
+	font-size: 20px;
+	font-family: 'kanit', sans-serif;
+	color: white;
+}
+div{
+	display: block;
+}
+img{
+	max-width: 100%;
+	box-sizing: border-box;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: grey;
+}
+
+/* FOOTER LEFT */
+
+.footer-left{
+	display: flex;
+	justify-content: flex-start;
+	
+}
+
+.pagos{
+	padding: 70px 0px 0px 70px;
+	font-size: 1.3rem;
+}
+.envios{
+	padding-left: 70px;
+	font-size: 1.3rem;
+}
+.redes-card{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items:flex-start;   
+}
+.footer-tarjetas {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-left: 70px;
+ }
+.card-tarjetas{
+	margin-bottom: 15px;
+}
+
+#tarjetas{
+	width: 65px;
+	height: 36px;
+	margin: 0px 5px 5px 0px;
+}
+
+
+
+
+
+/*FOOTER RIGHT*/
+.footer-right{
+	padding-right: 80px;
+	padding-top: 80px;
+	width: 30%;
+}
+
+.redes{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content:flex-end;
+	align-items: flex-start;	
+}
+.redes-title{
+	font-size: 1.3rem;
+	margin: 0px 0px 5px 0px;
+}
+.iconRedes{
+	display: flex;
+	gap: 10px;
+	font-size: 1.5rem;
+	transition: 0.4s;
+	cursor: pointer;
+	padding-bottom: 50px;
+	
+}
+.insta{
+	color: white;
+}
+.twit{
+	color: white;
+}
+.face{
+	color: white;
+}
+.contacto{
+	text-decoration: none;
+	height: 70px;
+}
+.contacto-lista{
+	padding-left: 2px;
+
+}
+
+
+
+
+       /*COPY*/
+.copy{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    padding: 50px 0px 0px 0px;
+    color: white;
+	
+}
+.footerCopy{
+	font-family: "Yomogi", cursive;
+	font-weight: 500;
+	padding-right: 250px;
+	font-size: 0.8rem;
+}
+.miNombre{
+	font-family: "kanit", sans-serif;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 0px;
+	font-size: 1.2rem;
+}

@@ -1,0 +1,15 @@
+.remove-botton{
+	display: flex;   
+	justify-content: center; 
+	align-items: center; 
+	width: 2.4rem; 
+	height: 2.4rem; 
+	border: 0;
+	font-size: 1.5rem;
+	border-radius: 90px;
+}
+
+.remove-botton:hover{
+	background-color: black;
+	color: white;
+}

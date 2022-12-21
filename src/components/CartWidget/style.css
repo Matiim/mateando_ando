@@ -1,8 +1,8 @@
 
 .CartWidget{
 	background-color: black;
-	color: rgba(255, 255, 255, 0.55);
-	padding: 15px;
+	color: white;
+	padding: 16px;
 	font-size: 28px;
 	border: 0;
 	width: 20px;
@@ -10,4 +10,17 @@
 }
 .CartWidget:hover{
 	color:rgba(255, 255, 255, 0.75);
+}
+
+.span{
+	display: flex; 
+	position: absolute; 
+	bottom: 2.1rem; 
+	right: 5.3rem; 
+	justify-content: center; 
+	align-items: center; 
+	width: 1rem; 
+	height: 1rem; 
+	font-size: 1.2rem;
+
 }

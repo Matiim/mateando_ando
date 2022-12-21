@@ -1,9 +1,9 @@
-import Item from '../Item/item'
+import { Item } from "../Item/item";
 import "./style.css"
 
 
 
-const ItemList = ({ products }) => {
+export const ItemList = ({ products }) => {
   return (
     <ul id="item-list">
       {products.map((product) => (
@@ -13,4 +13,3 @@ const ItemList = ({ products }) => {
   );
 };
 
-export default ItemList;

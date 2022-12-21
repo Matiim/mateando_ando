@@ -1,49 +1,65 @@
 #card{
-	margin: 33px;
-	padding: 10px;
-	border: 1;
-	width: 16rem;
-	height: 36rem;
+	display: flow-root;
+	height: 37rem;
+    width: 19rem;
+	margin: 10px;
+    cursor: default;
+    transition: all 400ms ease;
+    border: 1px #a09f9f solid;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px #464545;
+
+}
+#card:hover{
+	box-shadow: 5px 5px 20px black;
+    transform: translateY(-3%);
 }
 
 #text{
 	font-family: 'Kanit', sans-serif;
-	font-size: 22px;
+	font-size: 1.2rem;
 	text-align: center ;
-	margin: 20px;
+	margin-top: 1px;
 	color: #111111;
+	font-weight: 600;
 }
 
 #name{
 	text-align: center;
-	font-size: 20px;
+	font-size: 1.3rem;
 	color: black;
 	
 }
 
 #compra{
 	font-family: 'Oswald', sans-serif;
-	padding: 15px 20px;
-	margin: 5px;
-	background: #517245;
+	padding: 12px 30px;
+	font-size: 0.8rem;
+	background: black;
 	color: #ffffff;
 	border: 0;
-	
+	width: 100%;
+}
+#compra:hover{
+	background-color: grey;
 }
 #preview{
-	padding: 15px 20px;
-	margin: 5px;
-	background: #517245;
+	padding: 12px 22px;
+	margin-top: 5px;
 	color: #ffffff;
 	border: 0;
+	cursor: pointer;
 }
 
-#botones{
-	display: flex;
-	margin: 30px;
-	
+#descuento{
+	padding-left: 3rem;
 }
 
-
+.stock-agregados{
+	font-size: 1rem;
+	line-height: 1rem;
+	padding-left: 7rem; 
+	font-weight: 500;
+}
 
 

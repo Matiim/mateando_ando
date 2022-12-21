@@ -1,0 +1,115 @@
+.cart{
+	display: flex; 
+	flex-direction: column; 
+	padding-top: 8rem;
+	
+}
+
+.cart-vacio{
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+	
+}
+
+
+.h1-vacio{
+	font-size: 1.5rem;
+	line-height: 2rem; 
+	margin-top: 10rem; 
+}
+.ir-inicio{
+	font-family: 'Kanit', sans-serif;
+	padding: 0.5rem; 
+	margin-top: 1rem; 
+	margin-bottom: 19rem;
+	background-color: black; 
+	color: white; 
+	border-radius: 1rem; 
+
+}
+
+.div3{
+	display: flex; 
+	justify-content: center;
+	flex-direction: column;
+	gap: 4rem;
+	color: black; 
+
+}
+
+
+.finalizar{
+	display: flex; 
+	justify-content: center;
+	margin-right: 5rem;
+	margin-top: 15rem; 
+	padding-bottom: 2rem;
+	
+}
+
+.finalizar-compra{
+	display: flex; 
+	flex-direction:column; 
+	padding-bottom: 4rem;
+
+}
+.total{
+	font-family: 'Kanit', sans-serif;
+	padding-bottom: 2rem;
+	font-size: 1.5rem;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+}
+
+
+.checkout{
+	font-family: 'Kanit', sans-serif;
+	background-color: black; 
+	color: #ffffff; 
+	width: 100%; 
+	border-radius: 1rem; 
+	transition: all 400ms ease;
+    border: 1px #a09f9f solid;
+    box-shadow: 2px 2px 10px ;
+	font-size: 1.4rem;
+	
+}
+.checkout:hover{
+	box-shadow: 5px 5px 20px black;
+    transform: translateY(-3%);
+}
+
+.description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 1rem;
+	
+}
+
+.carroDescripcion{
+	padding-top: 5px;
+	font-size: 1.4rem;
+	font-weight: 300;
+}
+.titles-description{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 35rem;
+}
+#Cantidad{
+	font-size: 1.5rem;
+}
+
+#Producto{
+	font-size: 1.5rem;
+}
+
+#Precio{
+	font-size: 1.5rem;
+	
+}

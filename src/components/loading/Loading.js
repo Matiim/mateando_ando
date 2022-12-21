@@ -1,6 +1,9 @@
+import "./style.css"
+
 export const Loading = () => {
 	return (
-	  <div className="flex justify-center flex-1">
+	  <div className="loading">
+		
 		<svg
 		  xmlns="http://www.w3.org/2000/svg"
 		  width="100px"
@@ -8,6 +11,7 @@ export const Loading = () => {
 		  viewBox="0 0 100 100"
 		  preserveAspectRatio="xMidYMid"
 		>
+			
 		  <g transform="rotate(0 50 50)">
 			<rect
 			  x="47"
