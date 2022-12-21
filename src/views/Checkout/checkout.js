@@ -24,7 +24,7 @@ const CheckoutView = () => {
     const name = event.target[0].value;
     const phone = event.target[1].value;
     const email = event.target[2].value;
-	const direc = event.target[2].value;
+	const direc = event.target[3].value;
 
     setIsLoading(true);
 
