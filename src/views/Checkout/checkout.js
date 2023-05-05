@@ -117,7 +117,8 @@ const CheckoutView = () => {
 			variant="dark" 
 			type="submit"
          	 className="botton-submit"
-          	disabled={isLoading}>Finalizar Compra</button>
+          	disabled={isLoading}
+			onClick={() => navigate("/")}>Finalizar Compra</button>
 		</div>
       </form>
     </Layout>

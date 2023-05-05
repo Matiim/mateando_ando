@@ -1,5 +1,6 @@
-import { useContext} from "react";
+import { useContext, useState} from "react";
 import { useNavigate } from "react-router-dom";
+import { Item } from "../../components/Item/item";
 import { Layout } from "../../components/Layout/Layout";
 import { TrashWidget } from "../../components/trashwidget/trashWidget";
 import { CartContext } from "../../Context/cartContext";
@@ -8,18 +9,19 @@ import "./style.css"
   
 const CartView = () => {
 	const navigate = useNavigate();
-	const { productsAdded: items, totalAmount } = useContext(CartContext);
+
+	const { productsAdded, totalAmount } = useContext(CartContext);
 
 
 
 	const goToCheckout = () => {
-	  navigate("/checkout");
-	};
+		navigate("/checkout");
+	  };
   
 	return (
 	  <Layout>
 		<div className="cart">
-		  {items.length === 0 ? (
+		  {productsAdded.length === 0 ? (
 			<div className="cart-vacio">
 			  
 			  <h1 className="h1-vacio">No has agregado productos en el carro</h1>
@@ -31,12 +33,13 @@ const CartView = () => {
 		  ) : (
 			<div>
 			  <div className="div3">
-				{items.map((product) => {
+				{productsAdded.map((product) => {
 				  const quantityAdded = product.quantityAdded;
 				  	
 				  return (
 					<div>
 						<div className="description">
+						<img src={product.item.img}  id="img-cart" />
 							<p id="Cantidad">CANTIDAD :</p>
          					<p className=" carroDescripcion"> { quantityAdded } </p>
 							 <p id="Producto">PRODUCTO :</p>
