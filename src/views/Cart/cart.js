@@ -3,14 +3,13 @@ import { useNavigate } from "react-router-dom";
 import { Layout } from "../../components/Layout/Layout";
 import { TrashWidget } from "../../components/trashwidget/trashWidget";
 import { CartContext } from "../../Context/cartContext";
-
-
 import "./style.css"
 
   
 const CartView = () => {
 	const navigate = useNavigate();
 	const { productsAdded: items, totalAmount } = useContext(CartContext);
+
 
 
 	const goToCheckout = () => {

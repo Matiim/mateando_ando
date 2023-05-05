@@ -1,22 +1,18 @@
 import "./style.css"
 import Card from 'react-bootstrap/Card';
 import { useNavigate } from "react-router-dom";
-import { useGetItemImg } from "../../hooks/useGetItemImg";
 import { Loading } from "../loading/Loading";
 
 
 export const Item = ({ product, quantityAdded }) => {
 	const navigate = useNavigate();
-	const img = useGetItemImg(product.img);
+	
   
 	
 	function handleNavigate() {
 	  navigate(`/item/${product.id}`);
 	}
   
-	if (!img) {
-	  return <Loading />;
-	}
 	
 
   return (
@@ -24,7 +20,7 @@ export const Item = ({ product, quantityAdded }) => {
 	<Card id="card" >
 		<div onClick={handleNavigate} id="preview">	
 		<a>	
-    	<Card.Img  src={img} id="img" /> 
+    	<Card.Img  src={product.img} id="img" /> 
 			<Card.Title id="name">{product.name}</Card.Title>
       			<Card.Text id="text">${product.price}</Card.Text> 
 				  </a> 

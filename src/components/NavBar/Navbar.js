@@ -13,21 +13,16 @@ function NavBar() {
   return (
 	<div>
 		<div id='text-top'>
-			<p id='p-top'>¡ESTAS EN EL LUGAR CORRECTO! SOMOS LA COMUNIDAD MATERA MÁS GRANDE DEL MUNDO. COMPRA SEGURA</p>
+			<p id='p-top'>¡ESTAS EN EL LUGAR CORRECTO!  SOMOS LA COMUNIDAD MATERA MÁS GRANDE DEL MUNDO. COMPRA SEGURA</p>
 		</div>
-		<div id='contactos'>
-			<ul id='lista-contacto'>
-				<li>📞 114563782943</li>
-				<li>✉️ matendoando@gmail.com</li>
-			</ul>
-		</div>
+		
 		<div className="img ">
 			<a href="/">
 			<img
               alt="logo"
               src= {logo}
-			  width="200"
-			  height="200"
+			  width="300"
+			  height="300"
 			 
               />
 			  </a>

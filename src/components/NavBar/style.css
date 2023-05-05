@@ -85,7 +85,7 @@
 	display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 45px;
+    height: 5px;
 	background-color: #000000;
 	color: white;
 }
@@ -93,8 +93,10 @@
 #lista-contacto{
     flex-direction: row;
     display: flex;
+	justify-content: flex-end;
 	list-style: none;
 	margin: 0px 10px;
+	padding-bottom: 40px;
     font-size: 0.8rem;
 	font-family: 'Kanit', sans-serif;
 }
