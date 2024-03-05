@@ -25,7 +25,7 @@ export const Item = ({ product, quantityAdded }) => {
       			<Card.Text id="text">${product.price}</Card.Text> 
 				  </a> 
 				  </div> 
-				<Card.Text id="descuento">3 cuotas sin interés de ${product.descuento}</Card.Text>
+				<Card.Text id="descuento">3 cuotas sin interés de ${parseInt(product.price / 3)}</Card.Text>
 				<span className="stock-agregados">
 					{product.stock === 0 ? "Sin Stock": quantityAdded ? `Agregados: ${quantityAdded}`: `En Stock: ${product.stock}`}
 				</span>

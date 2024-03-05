@@ -88,10 +88,10 @@ const CheckoutView = () => {
             placeholder="Nombre Completo"
             required
           />
-		  <p>Número de Telefono</p>
+		  <p>Número de Teléfono</p>
           <input
-            className="numero-telefono"
-            placeholder="Numero de Telefono"
+            className="numero-teléfono"
+            placeholder="Numero de Teléfono"
             type="number"
             required
           />
@@ -104,7 +104,7 @@ const CheckoutView = () => {
           />
 		    <p>Dirección*</p>
           <input
-            className="direccion"
+            className="dirección"
             placeholder="Dirección"
             required
           />

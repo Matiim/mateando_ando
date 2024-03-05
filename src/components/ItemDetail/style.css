@@ -1,6 +1,6 @@
 #body{
 	display: flex; 
-	padding: 3rem; 
+	padding: 8rem; 
 	background-color: #ffffff; 
 	transition-property: all; 
 	width: 100%;  
@@ -18,7 +18,11 @@
 	border-radius: 20px;
 	margin-left: 5rem;
   }
-
+img{
+	max-width: 100%;
+    box-sizing: border-box;
+    border-radius: 2rem;
+}
 #detail{
 	display: flex; 
 	padding-left: 2.5rem; 

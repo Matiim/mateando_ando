@@ -1,6 +1,5 @@
-import { useContext, useState} from "react";
+import { useContext} from "react";
 import { useNavigate } from "react-router-dom";
-import { Item } from "../../components/Item/item";
 import { Layout } from "../../components/Layout/Layout";
 import { TrashWidget } from "../../components/trashwidget/trashWidget";
 import { CartContext } from "../../Context/cartContext";
@@ -12,7 +11,9 @@ const CartView = () => {
 
 	const { productsAdded, totalAmount } = useContext(CartContext);
 
-
+	const goToHome = () => {
+		navigate("/")
+	}
 
 	const goToCheckout = () => {
 		navigate("/checkout");
@@ -22,10 +23,10 @@ const CartView = () => {
 	  <Layout>
 		<div className="cart">
 		  {productsAdded.length === 0 ? (
-			<div className="cart-vacio">
+			<div className="cart-vació">
 			  
-			  <h1 className="h1-vacio">No has agregado productos en el carro</h1>
-			  <button onClick={() => navigate("/")} className="ir-inicio">
+			  <h1 className="h1-vació">No has agregado productos en el carro</h1>
+			  <button onClick = {goToHome} className="ir-inicio">
 				Ir al inicio
 			  </button>
 			</div>
